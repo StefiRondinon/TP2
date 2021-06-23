@@ -1,0 +1,100 @@
+body {
+    background-image: url(../imagenes/fondo1.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    color: #fff;
+}
+
+
+form {
+    box-sizing: border-box;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.542);
+    margin-top: 150px;
+    border-radius: 20px;
+    padding: 3%;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 28px;
+    margin-bottom: px;
+}
+
+label {
+    font-size: 15px;
+}
+
+.respuestas-form {
+    width: 100%;
+    height: 30px;
+    margin-top: 3px;
+    margin-bottom: 9px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border: 3px solid #000;
+    background: linear-gradient(rgba(255, 255, 255, 0.693), rgba(36, 35, 35, 0.796));
+    color: #fff;
+    font-size: 15px;
+    font-weight: 20px;
+}
+
+.enviar {
+    width: 25%;
+    height: 35px;
+    margin-left: 36%;
+    margin-top: 55px;
+    background: linear-gradient(rgba(255, 255, 255, 0.693), rgba(36, 35, 35, 0.796));
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 9px;
+    border: 3px solid #000;
+}
+
+.enviar:hover {
+    background-color: rgb(19, 56, 22);
+}
+
+
+.optionSeguros {
+    margin-top: 20px;
+    padding: 2px;
+    font-size: 13px;
+    width: 85px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    transition: background 1s;
+    background: linear-gradient(rgba(255, 255, 255, 0.693), rgba(36, 35, 35, 0.796));
+    color: #000;
+    font-weight: 600;
+}
+
+.optionSeguros:hover {
+    background-color: rgb(179, 177, 177);
+}
+
+
+.container_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(3, 45px);
+    justify-content: center;
+    align-items: center;
+}
+
+.precio {
+opacity: 0;
+}
+
+@media screen and (max-width:790px) {
+    form {
+        width: 90%;
+        margin-top: 10%;
+    }
+
+}

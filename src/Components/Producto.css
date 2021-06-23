@@ -1,0 +1,25 @@
+.contenedorItems {
+    margin-top: 80px;
+    margin-left: 40px;
+    display: inline-grid;
+    width: 350px;
+    height: 350px;
+}
+
+.titulo {
+    font-size: 20px;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.imagen {
+    margin: auto;
+    width: 250px;
+    height: 250px;
+}
+
+.boton {
+    width: 140px;
+    height: 30px;
+    margin: auto;
+}
